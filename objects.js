@@ -2,6 +2,6 @@ var playlist = { U2: "Sunday Bloody Sunday", Rush: "Limelight", Metallica: "One"
 
 Object.assign({}, playlist, { U2: ['Sunday Bloody Sunday','New Years Day']} )
 
-function updatePlayList() {}
+function updatePlayList(playlist, artistName, songTitle) {}
 
 function removeFromPlaylist() {}
